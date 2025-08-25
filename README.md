@@ -1,8 +1,3 @@
-```docker build -t create-do-project-docker .```
-
-```docker build -t starthub-do-project .     
-docker run --rm \
-  -e do_access_token="<access_token>" \
-  -e do_project_name="<project-name>" \
-  starthub-do-project
+```docker build -t create-do-project .
+echo '{"state":{}, "params":{"do_project_name":"starthub-demo", "do_access_token": "<access_token>"}}' | docker run -i --rm create-do-project
 ```
