@@ -1,0 +1,23 @@
+{
+  "name": "create-do-project-docker",
+  "version": "0.0.1",
+  "inputs": [
+    {
+      "name": "do_access_token",
+      "description": "access token to digital ocean",
+      "type": "string"
+    },
+    {
+      "name": "do_project_name",
+      "description": "project name",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "project_id",
+      "description": "id of the do project just created",
+      "type": "string"
+    }
+  ]
+}
