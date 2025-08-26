@@ -1,7 +1,7 @@
 {
   "name": "create-do-project-docker",
   "version": "0.0.5",
-  "ref": "ghcr.io/starthubhq/create-do-project-docker:0.0.3",
+  "ref": "ghcr.io/starthubhq/create-do-project-docker:0.0.5",
   "inputs": [
     {
       "name": "do_access_token",
